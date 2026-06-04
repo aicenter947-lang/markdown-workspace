@@ -1,0 +1,14 @@
+{
+  "name": "markdown-workspace",
+  "version": "1.0.0",
+  "description": "A minimal markdown‑only workspace app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^4.2.12"
+  }
+}

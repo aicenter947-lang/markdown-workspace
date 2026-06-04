@@ -1,0 +1,42 @@
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+nav {
+  background: var(--nav-bg);
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border-radius: 4px;
+}
+
+#content {
+  padding: 1rem;
+}
+
+:root {
+  --bg: #fff;
+  --fg: #000;
+  --nav-bg: #f0f0f0;
+  --btn-bg: #007bff;
+  --btn-fg: #fff;
+}
+.dark {
+  --bg: #1e1e1e;
+  --fg: #e0e0e0;
+  --nav-bg: #2e2e2e;
+  --btn-bg: #4a90e2;
+}
+</style>
